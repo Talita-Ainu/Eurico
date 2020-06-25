@@ -1,0 +1,787 @@
+    body {
+      width: 1280px;
+    margin: 0 auto;
+      font-family: 'Lato' ;
+    }
+    .content {
+      text-transform: uppercase;
+      font-family: 'Lato Light';
+      font-weight: Light;
+      font-size: 10px;
+      display: inline-flex;
+      margin-top: -20px;
+      /* letter-spacing: Xpx; */
+
+    }
+
+    #primeira {
+      margin-left: 11%;
+    }
+
+    #frete {
+      margin-right: 24%;
+      margin-left: 19%;
+    }
+
+    #troca {
+      margin-right: 11%;
+
+    }
+
+
+    .content2 {
+      text-transform: uppercase;
+      font-family: Lato Light;
+      font-size: 12px;
+      display: inline-flex;
+      margin-top: 30px;
+      font-size: 12px;
+    }
+
+    #dois {
+      color: #C00018;
+      margin-top: 40px;
+      margin-left: 40px;
+      font-weight: bold;
+
+    }
+
+    #tres {
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+
+    #logoEurico {
+      height: 48px;
+      width: 164px;
+      margin-left: 31%;
+      margin-right: 25%;
+
+     
+    }
+
+    #search {
+      border-bottom: 1px solid black;
+      outline: none;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      font-size: 10px;
+      color: #000000;
+    }
+
+    #imgSearch {
+      width: 22px;
+      height: 22px;
+      margin-right: 1%;
+    }
+
+    #imgUser {
+      width: 19px;
+      height: 24px;
+      margin-right: 1%;
+    }
+
+    #imgCaminho {
+      width: 19px;
+      height: 26px;
+    }
+
+    .content3 {
+      text-transform: uppercase;
+      font-family: Lato Light;
+      font-size: 12px;
+      display: inline-flex;
+      margin-top: 30px;
+      font-size: 12px;
+    }
+
+    #Novidades {
+      margin-left: 17%;
+    }
+
+    #Feminino {
+      margin-left: 10%;
+
+    }
+
+    #Masculino {
+      margin-left: 10%;
+
+    }
+
+    #Acessorios {
+      margin-left: 10%;
+    }
+
+    #Outlet {
+      margin-left: 10%;
+    }
+
+    .content4 {
+      text-transform: uppercase;
+      font-family: Lato;
+      display: inline-flex;
+      font-size: 12px;
+      color: white;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (1fr)2;
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    #mask24 {
+      width: 1190px;
+      height: 474px;
+    }
+
+    #mask23 {
+      width: 1024px;
+      height: 565px;
+    }
+
+    #newCollection {
+      font-size: 20px;
+      position: absolute;
+      letter-spacing: 5px;
+      margin-left: 55%;
+      margin-top: 9%;
+
+    }
+
+    #line {
+      margin-left: 79%;
+      margin-top: 10%;
+      position: absolute;
+      width: 155px;
+      border-bottom: 1px solid white;
+    }
+
+    #ano {
+      margin-left: 97%;
+      margin-top: 9%;
+      position: absolute;
+      font-size: 16px;
+      letter-spacing: 5px;
+    }
+
+    #summer {
+      font-size: 89px;
+      letter-spacing: 5px;
+      margin-left: 52%;
+      margin-top: 10%;
+      position: absolute;
+      font-weight: "bolder";
+      font-stretch: extra-expanded;
+      -webkit-text-stroke-width: 5px;
+    }
+
+    #descricao1 {
+      font-size: 12px;
+      text-transform: lowercase;
+      position: absolute;
+      margin-left: 59%;
+      margin-top: 18%;
+      width: 254px;
+      padding-top: 14px;
+      word-wrap: break-word;
+
+    }
+
+    #btnFeminino {
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      position: absolute;
+      text-transform: uppercase;
+      margin-left: 50%;
+      margin-top: 28%;
+      font-size: 12;
+      width: 200px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #btnFeminino:hover {
+      color: black;
+      background-color: white;
+    }
+
+    #btnMasculino {
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      position: absolute;
+      text-transform: uppercase;
+      margin-left: 68%;
+      margin-top: 28%;
+      font-size: 12;
+      width: 200px;
+      height: 45px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    #btnMasculino:hover {
+      color: black;
+      background-color: white;
+    }
+
+    #btnSetaLeft {
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      position: absolute;
+      text-transform: uppercase;
+      margin-left: 80%;
+      margin-top: 36%;
+      font-size: 40;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+    }
+
+    #btnSetaLeft:after {
+      border-right: 0.1em solid white;
+      border-bottom: 0.1em solid white;
+      content: "";
+      display: inline-block;
+      height: 1em;
+      vertical-align: bottom;
+      width: 1em;
+
+      -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+      transform: rotate(135deg);
+    }
+
+    #btnSetaRight {
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      position: absolute;
+      text-transform: uppercase;
+      margin-left: 85%;
+      margin-top: 36%;
+      font-size: 40;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+
+    }
+
+    #btnSetaRight:after {
+      border-right: 0.1em solid white;
+      border-bottom: 0.1em solid white;
+      content: "";
+      display: inline-block;
+      height: 1em;
+      vertical-align: bottom;
+      width: 1em;
+
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    .content5 {
+      text-transform: uppercase;
+      font-family: Lato;
+      font-size: 12px;
+      color: white;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (1fr)2;
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    #gp53 {
+      width: 370px;
+      height: 270px;
+      margin-top: 10%;
+      margin-left: 15%;
+    }
+
+    #gp52 {
+      width: 370px;
+      height: 450px;
+      margin-top: -22%;
+
+      margin-left: 15%;
+
+    }
+
+    #gp50 {
+      width: 370px;
+      height: 450px;
+      margin-top: 60%;
+      margin-left: -170%;
+    }
+
+    #gp51 {
+      width: 370px;
+      height: 270px;
+      margin-top: 5%;
+      margin-bottom: 20%;
+      margin-left: -170%;
+    }
+
+    #casual {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      margin-top: 54%;
+      margin-left: 25%;
+      position: absolute;
+      color: white;
+
+    }
+
+    #tenis {
+      margin-top: 10%;
+      margin-left: -65%;
+    }
+
+    #btnConfira {
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      position: absolute;
+      text-transform: uppercase;
+      font-size: 12;
+      width: 185px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -50%;
+      margin-left: 33px;
+      display: flex;
+    }
+
+    #btnConfira:hover {
+      color: black;
+      background-color: white;
+
+    }
+
+    #man {
+      font-size: 18px;
+      margin-top: 78%;
+      margin-left: 56%;
+      position: absolute;
+      color: white;
+    }
+
+    #CollectionMan{
+      margin-top: -50%;
+      margin-left: 54%;
+      font-size: 18px;
+      letter-spacing: 4px;
+
+    }
+
+    #woman{
+      font-size: 18px;
+      margin-top: -115%;
+      margin-left: -230%;
+      
+    }
+
+    #CollectionWoman{
+      margin-top:  -115%;
+      margin-left: -255%;
+      font-size: 18px;
+      letter-spacing: 4px;
+    }
+
+    .mosaico{
+      display: flex;
+      margin-top: 130px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mosaico-box{
+      margin-top: 70px;
+    }
+    
+.mosaico img{
+  margin: 10px;
+}
+
+.mosaico-btn{
+  position: relative;
+  
+}
+
+.mosaico button{
+  position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 185px;
+    background: none;
+    border: 1px solid #fff;
+    height: 45px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.produtos-titulo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.produtos-titulo h3 {
+  font-weight: 100;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.produtos-categoria span{
+  font-size: 12px;
+  color: #707070;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.produtos-categoria span:last-of-type{
+  color:#D82532;
+  border-bottom: 1px solid
+
+}
+
+.slick-arrow {
+  position: absolute;
+    top: calc(50% - 25px);
+    background: none;
+    border: none;
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    z-index: 999999;
+}
+.slick-next {
+    right: 0;
+    transform: rotate(-135deg);
+}
+.slick-prev {
+  transform: rotate(45deg);
+}
+
+.colecao{
+  display: flex;
+      margin-top: 130px;
+      align-items: center;
+      justify-content: center;
+}
+
+
+.colecao > div{
+  position: relative
+}
+.colecao button{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 185px;
+    background: none;
+    border: 1px solid #fff;
+    height: 45px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.colecao-box{
+  margin-bottom: 120px;
+}
+
+.colecao img{
+  margin: 10px;
+}
+
+.loja{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.loja-box{
+  margin-top: 30px;
+  margin-bottom: 150px;
+  width: 413px;
+  height: 522px;
+}
+
+
+.plano{
+  width: 320px ;
+  height: 385px;
+  background-color: #F2F2F2;
+  display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+    margin-top: -180px;
+}
+
+.plano p{
+  color:#707070;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 50px;
+
+
+}
+.plano > div{
+  display: flex;
+}
+.plano h4{
+  font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.plano span{
+  font-weight: 700;
+  border-bottom: 1px solid red;
+}
+.plano button{
+  width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+ }
+
+.plano button:last-of-type:before{
+    transform: rotate(-45deg);
+
+}
+
+.plano button:before{
+  content: '';
+    width: 15px;
+    height: 15px;
+    transform: rotate(135deg);
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    display: block;
+}
+
+.frenteloja{
+  width: 130px;
+  height: 385px;
+  margin-top: -180px;
+}
+
+.subtitle{
+  text-transform: uppercase;
+  font-family: 'Lato';
+  color: black; 
+  letter-spacing: 5px;
+  font-size: 25px;
+  text-align: center;
+  
+}
+
+.Sobre{
+  font-weight: normal;
+
+}
+
+.Eurico2{
+  font-weight: bold;
+}
+
+.Lorem{
+  color: #000000;
+  font-family: 'Lato Light';
+  text-transform: none;
+  text-align: center;
+  justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      display: block;
+      margin-left: 10%;
+      margin-right: 10%;
+      
+
+    }
+
+.news{
+  margin-left: 10%;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+
+.Newsletter{
+      font-size: 14;
+      font-family: 'Lato Regular';
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-right: 10%;
+      margin-top: 5%;
+    }
+
+    .newsTexto{
+      font-size: 12px;
+      font-family: 'Lato Light';
+      text-transform: initial;
+      margin-left: 10%;
+      display: flex;
+
+    }
+
+    #email {
+      border-bottom: 1px solid black;
+      outline: none;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      font-size: 14px;
+      color: #000000;
+      margin-left: 50%;
+      width: 250px;
+    }
+
+    .n2{
+      margin-left: -258px;
+    margin-top: 20px;
+    }
+
+    #btnEmail {
+      border-color: black;
+      border-width: 1px;
+      border-style: solid;
+      position: absolute;
+      text-transform: uppercase;
+      font-size: 12;
+      width: 190px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 200px;
+      margin-left: 500px;
+      display: flex;
+      margin-top: -35px;
+    }
+
+    #th1{
+      margin-left: 12%; 
+    }
+
+    .rodaPe{
+      margin-top: 50px;
+    }
+
+    .redes{
+      display: flex;
+    }
+
+
+    .redes img{
+     margin: 10px; 
+    }
+
+    .rodaText{
+      text-align: center;
+      font-family: "Lato Light";
+      font-size: 10px;
+      margin-top: -38px;
+      margin-left: -150px;
+    }
+
+    .responsavel{
+      display: flex;
+      margin-top: -5%;
+    margin-left: 83%;
+    
+    }
+    
+    .responsavel img{
+      margin: 10px;
+    } 
+
+    #vtex{
+      width: 83.56px;
+      height: 30.39px;
+      margin-top: 18px;
+    }
+
+    .encrypt{
+      width: 89px;
+      height: 66.79px;
+    }
+
+.table{
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    margin-right: -22px;
+}
+
+.tableDois{
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+    margin-left: 85px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.tableTres{
+  font-size: 12px;
+}
+
+.Follow{
+    font-family: 'Lato';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.Us{
+  font-size: 25px;
+}
+
+#Arroba{
+  font-size: 13px;
+  margin-bottom: 100px;
+}
+
+.grid{
+  display: flex;
+  margin-bottom: 50px;
+  align-content: center;
+}
+
+.grid img{
+ margin-left: -6px;
+    margin-right: -28px;
+}
+.destaque{
+    position: relative;
+    margin-top: -40px;
+} 
